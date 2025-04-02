@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top1 Chuteiras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #008000;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            position: relative;
+        }
+        .security-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .players img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .payments img {
+            width: 50px;
+            margin: 10px;
+        }
+        .flags {
+            margin-top: 20px;
+        }
+        .flags img {
+            width: 50px;
+            margin: 5px;
+        }
+        .videos {
+            margin-top: 20px;
+        }
+        .videos iframe {
+            width: 90%;
+            max-width: 560px;
+            height: 315px;
+            margin: 10px auto;
+            display: block;
+        }
+        .inspiration {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .inspiration h2 {
+            color: #008000;
+        }
+        .inspiration p {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Top1 Chuteiras
+        <div class="security-badge">🔒 Site Seguro</div>
+    </header>
+    
+    <section class="players">
+        <h2>Grandes Jogadores</h2>
+        <img src="https://via.placeholder.com/200" alt="Neymar">
+        <img src="https://via.placeholder.com/200" alt="Messi">
+        <img src="https://via.placeholder.com/200" alt="Cristiano Ronaldo">
+        <img src="https://via.placeholder.com/200" alt="Vini Jr">
+    </section>
+    
+    <section class="payments">
+        <h2>Formas de Pagamento</h2>
+        <img src="https://via.placeholder.com/50" alt="Cartão de Crédito">
+        <img src="https://via.placeholder.com/50" alt="Cartão de Débito">
+        <img src="https://via.placeholder.com/50" alt="Pix">
+    </section>
+    
+    <section class="flags">
+        <h2>Bandeiras do Brasil</h2>
+        <img src="https://via.placeholder.com/50" alt="Bandeira do Brasil">
+        <img src="https://via.placeholder.com/50" alt="Bandeira do Brasil">
+        <img src="https://via.placeholder.com/50" alt="Bandeira do Brasil">
+    </section>
+    
+    <section class="videos">
+        <h2>Vídeos do Neymar</h2>
+        <!-- Substitua 'VIDEO_ID1' e 'VIDEO_ID2' pelos IDs dos vídeos reais do YouTube -->
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    
+    <section class="inspiration">
+        <h2>Mensagens Inspiradoras</h2>
+        <p>“No futebol, assim como na vida, o importante é nunca desistir e sempre buscar a vitória.”</p>
+        <p>“Cada jogo é uma nova chance para escrever sua história. Acredite, treine e vença!”</p>
+        <p>“A paixão pelo futebol transforma sonhos em realidade. Jogue com o coração!”</p>
+    </section>
+</body>
+</html>
